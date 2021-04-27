@@ -9,7 +9,7 @@ public class Countoccurrence {
 		// TODO Auto-generated method stub
 		HashMap<Character, Integer> hm=new HashMap<Character, Integer>();
 		String s="ShivatejaTadaka";
-		char[] chararr=s.toCharArray();
+		char[] chararr=s.toLowerCase().toCharArray();
 		for(char c:chararr)
 		{
 			if(hm.containsKey(c))

@@ -6,7 +6,7 @@ public class Printduplicateelearray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] a= {1,1,2,3,4,4,5,5,1,2,1,2,3};
+		int[] a= {1,1,2,3,4,4,5,5,1,2,1,2,3,6};
 		Arrays.sort(a);
 		int j=0;
 		for(int i=0;i<a.length-1;i++)

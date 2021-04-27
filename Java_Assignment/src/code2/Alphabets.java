@@ -8,7 +8,6 @@ public class Alphabets {
 		{
 			s+=c+" ";
 		}
-//		System.out.println(s);
 		String[] news= s.split(" ");
 		for(int i=0;i<26;i++)
 		{
@@ -21,7 +20,8 @@ public class Alphabets {
 			}
 		}
 		
-			
+		char[] ch= {};
+		Character.toUpperCase(ch[0]);	
 		
 	}
 

@@ -21,7 +21,7 @@ public class Nonrepeated {
 		}
 		for(Entry<Character, Integer> e:hm.entrySet())
 		{
-			if(e.getValue()==2)
+			if(e.getValue()==1)
 			{
 				System.out.println(e.getKey());
 			}

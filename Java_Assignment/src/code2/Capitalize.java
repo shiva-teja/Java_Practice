@@ -16,6 +16,12 @@ public class Capitalize {
 			System.out.print(all+" ");
 		}
 		
+//		StringBuffer sb=new StringBuffer();
+//		for(String s:newstr)
+//		{
+//			sb.append(Character.toUpperCase(s.charAt(0))).append(s.substring(1)).append(" ");
+//		}
+//		System.out.print(sb);
 
 	}
 
